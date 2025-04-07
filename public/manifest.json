@@ -1,0 +1,20 @@
+{
+  "name": "Quizy",
+  "short_name": "Quizy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1404f6",
+  "theme_color": "#297fff",
+  "icons": [
+    {
+      "src": "/icons/quizy192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/quizy512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
