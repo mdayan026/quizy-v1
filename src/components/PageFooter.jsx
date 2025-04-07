@@ -98,15 +98,15 @@ export default function Footer({ alert = false }) {
               {alert ? (
                 'The questions made by AI may have errors. \nOnly some questions are made by IA'
               ) : (
-                <span>
+               <span>
                   Made with ❤️ by{' '}
                   <a
-                    href="https://x.com/THE_SANDF"
+                    href="https://www.linkedin.com/in/ayan-shaikh-694529325/"
                     target="_blank"
                     rel="noreferrer"
                     className={`underline ${showInfo ? '' : 'hidden'}`}
                   >
-                    KHALID
+                    KHALID , AYAN , MUBASSHIR .
                   </a>
                 </span>
               )}
