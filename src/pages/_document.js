@@ -5,9 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="UTF-8" />
-        <link rel="icon" href="/favicon.svg" />
-        <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#297fff" />
         {/* <!-- Meta --> */}
         <meta name="author" content="SANDF" />

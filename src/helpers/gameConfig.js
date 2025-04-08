@@ -1,4 +1,4 @@
-import categoriesJSON from '../assets/categories.json'
+import categoriesJSON from '../../public/assets/categories.json'
 
 const MAX_QUESTIONS = 10
 const MIN_QUESTIONS = 4

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { BsSkipEndFill } from 'react-icons/bs'
-import fiftyImg from '../../assets/fifty.svg'
+import fiftyImg from '../../../public/assets/fifty.svg'
 import { FaHeart } from 'react-icons/fa'
 import { useBoundStore } from '../../store/useBoundStore'
 import { useEffect } from 'react'

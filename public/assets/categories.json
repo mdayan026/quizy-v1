@@ -1,0 +1,42 @@
+[
+	{
+		"id": "aa",
+		"name": "History",
+		"color": "#e6c642"
+	},
+	{
+		"id": "ab",
+		"name": "Entertainment",
+		"color": "#f94e4e"
+	},
+	{
+		"id": "ac",
+		"name": "Technology",
+		"color": "#0004ff"
+	},
+	{
+		"id": "ad",
+		"name": "Geography",
+		"color": "#3ce956"
+	},
+	{
+		"id": "ae",
+		"name": "Art",
+		"color": "#ff0000"
+	},
+	{
+		"id": "af",
+		"name": "Space",
+		"color": " #00ffbf"
+	},
+	{
+		"id": "ah",
+		"name": "Science",
+		"color": "#b700ff"
+	},
+	{
+		"id": "ag",
+		"name": "General culture",
+		"color": "#56cfef"
+	}
+]

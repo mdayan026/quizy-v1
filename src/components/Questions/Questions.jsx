@@ -4,7 +4,7 @@ import GameOver from '../Play/GameOver'
 import QuestionsNavbar from './QuestionsNavbar'
 import QuestionSlider from './QuestionSlider'
 
-import categories from '../../assets/categories.json'
+import categories from '../../../public/assets/categories.json'
 import playSound from '../../helpers/playSound'
 import { useBoundStore } from '../../store/useBoundStore'
 

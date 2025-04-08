@@ -5,7 +5,7 @@ import JsxForm from './JsxForm'
 import { IoCloseSharp } from 'react-icons/io5'
 import playSound from '../../helpers/playSound'
 import queryValidator from '../../helpers/gameConfig'
-import categoriesJSON from '../../assets/categories.json'
+import categoriesJSON from '../../../public/assets/categories.json'
 import { useBoundStore } from '../../store/useBoundStore'
 
 export default function NewGameForm () {

@@ -1,5 +1,5 @@
 // Import category data (for dynamic color changes)
-import categories from '../../assets/categories.json'
+import categories from '../../../public/../public/assets/categories.json'
 
 // Import the footer component
 import PageFooter from '../PageFooter'

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { AiFillInfoCircle } from 'react-icons/ai'
-import categories from '../../assets/categories.json'
+import categories from '../../../public/../public/assets/categories.json'
 import { useState } from 'react'
 import { useBoundStore } from '../../store/useBoundStore'
 

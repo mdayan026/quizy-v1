@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import playSound from '../helpers/playSound'
-import soundOn from '../assets/sound-on.svg'
-import soundOff from '../assets/sound-off.svg'
+import soundOn from '../../public/assets/sound-on.svg'
+import soundOff from '../../public/assets/sound-off.svg'
 import { useEffect, useState } from 'react'
 import { MdInfo } from 'react-icons/md'
 import { GoAlert } from 'react-icons/go'
@@ -101,12 +101,12 @@ export default function Footer({ alert = false }) {
                 <span>
                   Made with ❤️ by{' '}
                   <a
-                    href="https://x.com/THE_SANDF"
+                    href="https://www.linkedin.com/in/ayan-shaikh-694529325/"
                     target="_blank"
                     rel="noreferrer"
                     className={`underline ${showInfo ? '' : 'hidden'}`}
                   >
-                    KHALID
+                    KHALID , AYAN , MUBASSHIR .
                   </a>
                 </span>
               )}

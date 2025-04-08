@@ -10,7 +10,7 @@ import Footer from '../../components/PageFooter'
 import Questions from '../../components/Questions/Questions'
 
 import queryValidator from '../../helpers/gameConfig'
-import categories from '../../assets/categories.json'
+import categories from '../../../public/assets/categories.json'
 import { useBoundStore } from '../../store/useBoundStore'
 
 export default function Play() {

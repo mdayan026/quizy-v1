@@ -3,8 +3,8 @@ import { defaultQuestions } from '../../helpers/gameConfig.js'
 import { BsSkipEndFill } from 'react-icons/bs'
 import { IoMdInfinite } from 'react-icons/io'
 import { FaHeart } from 'react-icons/fa'
-import fiftyImg from '../../assets/fifty.svg'
-import categoriesJSON from '../../assets/categories.json'
+import fiftyImg from '../../../public/assets/fifty.svg'
+import categoriesJSON from '../../../public/../public/assets/categories.json'
 import { useBoundStore } from '../../store/useBoundStore.js'
 
 export default function JsxForm ({ handleInputs, nowQueries }) {
@@ -145,17 +145,20 @@ export default function JsxForm ({ handleInputs, nowQueries }) {
 							{/* Category Icon */}
 							<Image
 								className={`
-									absolute transition-all w-full h-full peer-checked:scale-90 p-2 rounded
-									peer-checked:bg-[${category.color}] invert peer-checked:invert-0
-									peer-checked:bg-[var(--bgColor)] top-0 pointer-events-none
+									absolute transition-all duration-300 ease-in-out w-full h-full peer-checked:scale-90 p-2 rounded
+									top-0 pointer-events-none
 									peer-checked:outline-2 peer-checked:outline-offset-2 peer-checked:outline
-									outline-[var(--bgColor)]
 								`}
 								src={`/categories-icons/${category.name.toLowerCase()}.svg`}
 								alt={category.name}
 								width={40}
 								height={40}
-								style={{ '--bgColor': category.color }}
+								style={{
+									backgroundColor: queries.categories.includes(category.id) ? category.color : 'transparent',
+									outlineColor: queries.categories.includes(category.id) ? category.color : 'transparent',
+									transition: 'background-color 0.3s ease, outline-color 0.3s ease, transform 0.3s ease',
+									filter: 'brightness(0) invert(1)',
+								}}
 							/>
 						</label>
 					))}

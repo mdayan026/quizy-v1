@@ -5,7 +5,7 @@ import { AiFillCloseCircle, AiFillCheckCircle } from 'react-icons/ai'
 import { useCallback, useEffect, useRef } from 'react'
 import { IoCloseSharp } from 'react-icons/io5'
 import { BiArrowBack } from 'react-icons/bi'
-import trophyIcon from '../../assets/trophy.svg'
+import trophyIcon from '../../../public/assets/trophy.svg'
 
 import playSound from '../../helpers/playSound'
 import ReactCanvasConfetti from 'react-canvas-confetti'

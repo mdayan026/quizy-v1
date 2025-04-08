@@ -1,6 +1,6 @@
 import { useBoundStore } from '../../store/useBoundStore'
 import playSound from '../../helpers/playSound'
-import starIcon from '../../assets/star.svg'
+import starIcon from '../../../public/assets/star.svg'
 import Image from 'next/image'
 
 export default function QuestionSlider ({ changueCurrent, setTime, getAnotherQuestions }) {

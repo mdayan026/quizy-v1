@@ -1,4 +1,4 @@
-import offlineQuestions from '../assets/questions.json'
+import offlineQuestions from '../../public/../public/assets/questions.json'
 
 const randomArray = (arr) => arr.toSorted(() => 0.5 - Math.random())
 

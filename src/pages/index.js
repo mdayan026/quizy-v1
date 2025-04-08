@@ -1,24 +1,24 @@
-import Head from 'next/head'
-import MainHome from '../components/Home/MainHome'
-import GameModes from '../components/Home/GameModes'
-import Categories from '../components/Home/Categories'
-import { useEffect } from 'react'
+import Head from "next/head";
+import MainHome from "../components/Home/MainHome";
+import GameModes from "../components/Home/GameModes";
+import Categories from "../components/Home/Categories";
+import { useEffect } from "react";
 
-export default function Main () {
-	useEffect(() => { window.onbeforeunload = () => null }, [])
-    
-	
+export default function Main() {
+  useEffect(() => {
+    window.onbeforeunload = () => null;
+  }, []);
 
-	return (
-		<>
-			<Head>
-				<title>Quizy</title>
-			</Head>
-			<MainHome />
-			<GameModes />
-			<Categories />
-			<style jsx global>
-				{`
+  return (
+    <>
+      <Head>
+        <title>Quizy</title>
+      </Head>
+      <MainHome />
+      <GameModes />
+      <Categories />
+      <style jsx global>
+        {`
 				#__next {
 					display: grid;
 	        grid-template-columns: 1fr;
@@ -28,7 +28,7 @@ export default function Main () {
             grid-template-columns: 1.4fr 1fr;
           }
 			  `}
-			</style>
-		</>
-	)
+      </style>
+    </>
+  );
 }
