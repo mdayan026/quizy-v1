@@ -98,7 +98,7 @@ export default function Footer({ alert = false }) {
               {alert ? (
                 'The questions made by AI may have errors. \nOnly some questions are made by IA'
               ) : (
-               <span>
+                <span>
                   Made with ❤️ by{' '}
                   <a
                     href="https://www.linkedin.com/in/ayan-shaikh-694529325/"
